@@ -1,19 +1,40 @@
-section {
-  padding: 3rem 0;
-}
-
-.col img {
-  max-width: 100%;
-}
-
 h1 {
   margin: 0;
+  a.brand-logo {
+    width: max-content;
+  }
 }
 
 nav .brand-logo,
 .gutter {
   padding-left: .75rem;
   padding-right: .75rem;
+}
+
+.user-view {
+  &::before {
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 50%;
+    background: linear-gradient(to bottom, #0000, #0009);
+  }
+  .background {
+    img {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+  }
+  .circle {
+    object-fit: cover;
+  }
+  a {
+    position: relative;
+  }
 }
 
 .hero {
@@ -25,6 +46,10 @@ nav .brand-logo,
   }
 }
 
+section {
+  padding: 3rem 0;
+}
+
 .card {
   h3.card-title {
     margin: 0;
@@ -34,6 +59,11 @@ nav .brand-logo,
       display: inline-block;
     }
   }
+}
+
+
+.col img {
+  max-width: 100%;
 }
 
 .page-footer {
