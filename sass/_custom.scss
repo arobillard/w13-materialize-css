@@ -1,0 +1,48 @@
+section {
+  padding: 3rem 0;
+}
+
+.col img {
+  max-width: 100%;
+}
+
+h1 {
+  margin: 0;
+}
+
+nav .brand-logo,
+.gutter {
+  padding-left: .75rem;
+  padding-right: .75rem;
+}
+
+.hero {
+  height: clamp(30em, 90vh, 60em);
+  background: linear-gradient(to bottom, #0000, #0009), url('https://placedog.net/1920/1080?random') center / cover no-repeat;
+  margin-bottom: 1.5rem;
+  .container {
+    padding: 0 .75rem;
+  }
+}
+
+.card {
+  h3.card-title {
+    margin: 0;
+  }
+  .card-action {
+    a {
+      display: inline-block;
+    }
+  }
+}
+
+.page-footer {
+  .contact-info {
+    li {
+      margin-bottom: 1rem;
+    }
+    a {
+      display: inline-block;
+    }
+  }
+}
