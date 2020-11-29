@@ -52,86 +52,53 @@
       </a>
     </div>
 
-    <header class="hero valign-wrapper">
-      <div class="container white-text">
-        <h2>Welcome to Dog Rescue!</h2>
-        <p class="flow-text">Take a look through the many dogs we have available for adoption! Your new best friend is waiting for you!</p>
-        <a class="waves-effect waves-light btn-large indigo" href="#">
-          <i class="material-icons left">search</i>
-          Find a new friend
-        </a>
-      </div>
-    </header>
-
-    <section class="cards">
+    <section>
       <div class="row container">
-        <div class="col s12">
-          <h2>Available Dogs</h2>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image">
-              <img src="https://placedog.net/550/550?random" alt="A random dog.">
-              <a class="btn-floating halfway-fab indigo" href="#"><i class="material-icons">favorite</i></a>
+        <form class="col s12 l8 offset-l2" action="#">
+          <h1 class="indigo-text">Booking Form</h1>
+          <p>To book an appointment to meet a dog for adoption, please fill out all of the form below.</p>
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="first-name" name="first-name" type="text" class="validate">
+              <label for="first-name">First Name</label>
             </div>
-            <div class="card-content">
-              <h3 class="card-title">Spud</h3>
-              <p>I am very cute, super cuddly, and very playful! Great for high energy households.</p>
-            </div>
-            <div class="card-action">
-              <a class="indigo-text" href="#">Book a visit</a>
-              <a class="indigo-text" href="#">Learn more</a>
+            <div class="input-field col s12 m6">
+              <input id="last-name" name="last-name" type="text" class="validate">
+              <label for="last-name">Last Name</label>
             </div>
           </div>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image">
-              <img src="https://placedog.net/650/650?random" alt="A random dog.">
-              <a class="btn-floating halfway-fab indigo" href="#"><i class="material-icons">favorite</i></a>
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="email" name="email" type="email" class="validate">
+              <label for="email">Email</label>
             </div>
-            <div class="card-content">
-              <h3 class="card-title">Hudson</h3>
-              <p>I'm an old soul, love naps, and cuddling on the couch. Great for retirees!</p>
-            </div>
-            <div class="card-action">
-              <a class="indigo-text" href="#">Book a visit</a>
-              <a class="indigo-text" href="#">Learn more</a>
+            <div class="input-field col s12 m6">
+              <input id="phone" name="phone" type="tel" class="validate">
+              <label for="phone">Phone</label>
             </div>
           </div>
-        </div>
-        <div class="col s12 m6 l4">
-          <div class="card">
-            <div class="card-image">
-              <img src="https://placedog.net/750/750?random" alt="A random dog.">
-              <a class="btn-floating halfway-fab indigo" href="#"><i class="material-icons">favorite</i></a>
+          <div class="row">
+            <div class="input-field col s12 m6">
+              <input id="date-available" name="date-available" type="text" class="datepicker">
+              <label for="date-available">Date Available</label>
             </div>
-            <div class="card-content">
-              <h3 class="card-title">Borf</h3>
-              <p>I'm a bit of a chonker. Looking for a family that can help me be more active!</p>
-            </div>
-            <div class="card-action">
-              <a class="indigo-text" href="#">Book a visit</a>
-              <a class="indigo-text" href="#">Learn more</a>
+            <div class="input-field col s12 m6">
+              <input id="time-available" name="time-available" type="text" class="timepicker">
+              <label for="time-available">Time Available</label>
             </div>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="about" class="about grey lighten-4">
-      <div class="container row">
-        <div class="col s12 m4 l6">
-          <img src="https://placedog.net/750/750?random" alt="A random dog.">
-        </div>
-        <div class="col s12 m8 l6">
-          <h2>About Dog Rescue</h2>
-          <p>Each year, we care for more than 8,000 sick, injured and homeless animals, providing leadership in animal welfare to help build a compassionate community and a brighter future for our community.</p>
-          <a class="btn waves-effect waves-light indigo" href="#about">
-            <i class="material-icons left">school</i>
-            Learn more
-          </a>
-        </div>
+          <div class="row">
+            <label class="col s12">
+              <input type="checkbox" class="filled-in" checked="checked" />
+              <span>By checking this you confirm you have read our <a href="#">Terms of Service.</a></span>
+            </label>
+          </div>
+          <div class="row">
+            <div class="col">
+              <button class="btn indigo" type="submit">Submit</button>
+            </div>
+          </div>
+        </form>
       </div>
     </section>
 
